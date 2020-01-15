@@ -11,6 +11,10 @@ public class Triangle{
         this.c = c;
     }
 
+    Point a = new Point(x,y);
+    Point b = new Point(x,y);
+    Point c = new Point(x,y);
+    
     area = (a.getX()(b.getY() -c.getY()) + b.getX()(c.getY() -a.getY()) + c.getX()(a.getY() - b.getY()))/2;
 
 }
