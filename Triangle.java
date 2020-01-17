@@ -6,7 +6,7 @@ public class Triangle{
     private Point Point3;
 
     public Triangle(Point a, Point b, Point c,){
-        this.= a;
+        this.a = a;
         this.b = b;
         this.c = c;
     }
