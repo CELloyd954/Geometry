@@ -1,7 +1,6 @@
 public class Square {
 
-	private int width,
-	private int length;
+	private int width;
 
 	public Square(width) {
 		this.width = width;
