@@ -1,18 +1,17 @@
 public class Triangle{
-    public double area = 0;
 
     private Point Point1;
     private Point Point2;
     private Point Point3;
 
-    public Triangle(Point a, Point b, Point c,){
-        this.= a;
-        this.b = b;
-        this.c = c;
+    public Triangle(Point Point1, Point Point2, Point Point3){
+        this.Point1= Point1;
+        this.Point2 = Point2;
+        this.Point3 = Point3;
     }
     
-    public double area(){
+    public double Area(Point Point1, Point Point2, Point Point3){
 
-    area = (a.getX()(b.getY() -c.getY()) + b.getX()(c.getY() -Point1.getY()) + c.getX()(a.getY() - b.getY()))/2;
+    double area = (Point1.getX()(Point2.getY() -Point3.getY()) + Point2.getX()(Point3.getY() -Point1.getY()) + Point3.getX()(Point1.getY() - Point2.getY()))/2;
     }
 }
